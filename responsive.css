@@ -1,0 +1,52 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logo {float:none;display: block;text-align: center;}
+	span.tagline {margin-left: 0px;display: inline-block;}
+	.main_menu {float: none;display: block;margin-top: 30px;}
+	.three_equal_div {max-width: 100%;display: block;}
+	.four_equal_div {max-width: 100%;display: block;overflow: hidden;}
+.four_equal_div .equal_div {width: 100%;padding: 0;}
+.four_equal_div .equal_div img{width: 100%;}
+.area_header span.left {width: 20%;}
+.area_header span.right {width: 20%;}
+.fun_area i {width: 46px;}
+.equal_div_footer img{width:100%;}
+.footer_area .three_equal_div_footer {display: block;margin:0;}
+.equal_div {display: block;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and (max-width: 767px) {
+	.logo {float:none;display: block;text-align: center;}
+	span.tagline {margin-left: 10px;display: inline-block;}
+	.main_menu {float: none;display: block;margin-top: 30px;}
+	.three_equal_div {max-width: 100%;display: block;}
+	.four_equal_div {max-width: 100%;display: block;overflow: hidden;}
+.four_equal_div .equal_div {width: 48%;float: left;margin-right: 2%;padding: 0;}
+.four_equal_div .equal_div img{width: 100%;}
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)and (max-width: 991px) {
+	
+  ul#nav {margin-right: 25px;}
+ul#nav li {margin-left: 25px;}
+.equal_div .content {text-align: justify;}
+.equal_div_footer img {width: 100%;}
+.four_equal_div {max-width: 100%;display: block;overflow: hidden;}
+.four_equal_div .equal_div {width: 24%;float: left;margin-right: 1%;padding: 0;}
+.four_equal_div .equal_div img{width: 100%;}
+.fun_area .equal_div .content {text-align: center;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body{}
+}
