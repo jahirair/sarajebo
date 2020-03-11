@@ -1,0 +1,131 @@
+.main_container{width:100%;margin:0 auto;}
+.header_area{background:url("../images/header_bg.jpg")center center/cover no-repeat;color:#fff;z-index:9999;}
+.top_header{overflow:hidden;padding-top: 40px;}
+.logo{float:left;margin-left:30px;}
+.logo img{margin-top:15px;}
+span.tagline{margin-left: 120px;margin-top: -23px;display: block;}
+
+/*Menu Area*/
+
+.main_menu{float:right;}
+ul#nav{display:block;margin-right:40px;}
+ul#nav li{list-style:none;float:left;display:inline-block;margin-left:40px;}
+
+.header_content{text-align:center;position:relative;}
+.header_content h2{font-size: 57px;
+    margin-top: 240px;margin-bottom:0px;}
+.header_content h2 span{color:blue;}
+.header_content h3{font-size:30px;margin-bottom:0px;}
+.header_content h3 span{color:#4B6EE2;}
+.header_content h4{}
+.header_content h4 img.left{margin-right: 20px;}
+.header_content h4 img.right{margin-left: 20px;}
+.social_link{margin-top:90px;padding-bottom:100px;}
+.social_link ul{margin:0;padding:0;overflow:hidden;text-align:center;
+transition:max-height 0.4s;
+}
+.social_link ul li{display:inline-block;padding:20px;}
+.social_link ul li a{color:#fff;text-decoration:none;}
+.social_link ul li:hover{}
+
+
+/* Area Header*/
+
+.area_header{text-align:center;margin-top:110px;margin-bottom:55px;}
+.area_header h1{margin-bottom:25px;color:#4C76FF;padding-top: 40px;}
+.area_header_p{width:80%;text-align:center;margin:0 auto;}
+.area_header span.left{display: inline-block;
+    width: 90px;
+    height: 2px;
+    background-color: #E6E8EA;
+    text-align: center;
+    margin: 0 auto;margin-bottom:5px;}
+.area_header i{margin-left:15px; margin-right:15px;}
+.area_header span.right{display: inline-block;
+    width: 90px;
+    height: 2px;
+    background-color: #E6E8EA;
+    text-align: center;
+    margin: 0 auto;margin-bottom:5px;}
+	
+/*Features Area*/
+
+.features_area{background: #EFEFEF;}
+.features_area .equal_div i{color: #4C76FF;border: 1px solid #4C76FF;border-radius: 50%;padding: 15px;}
+.three_equal_div{max-width:1450px; margin:40px auto 0 auto;display:flex}
+.equal_div{padding:20px;flex:1;display:flex;}
+.equal_div .content{width:100%;display:block;}
+.icon{margin-right: 25px;
+    margin-top: 20px;}
+.bottom_header {width:80%;margin:0 auto;margin-bottom:100px;}
+.bottom_header p{text-align:center;}
+.equal_div_footer{padding:20px;flex:1;}
+.first_div,.second_div,.third_div{display:flex;}
+
+/*Work Area*/
+
+.four_equal_div{max-width:960px; margin:40px auto 0 auto;display:flex}
+.four_equal_div .equal_div{text-align:center;flex:1;}
+
+
+.works_area{}
+.works_area img{width:240px; float:left;}
+
+.work_link{margin-top:90px;padding-bottom:100px;}
+.work_link ul{margin:0;padding:0;overflow:hidden;text-align:center;
+transition:max-height 0.4s;
+}
+.work_link ul li{display:inline-block;padding:20px;cursor: pointer;}
+.work_link ul li a{color:#fff;text-decoration:none;}
+.work_link ul li:hover{}
+
+/*Team Area*/
+
+.four_equal_div .equal_div img{width:200px;}
+
+/*Fun Area*/
+.fun_area{background-image:url("../images/fun_bg.jpg");color:#fff;}
+.fun_area .area_header h1{padding-top:40px;}
+.fun_area .area_header i{border:none;padding:0px;}
+.fun_area i{border:1px solid #fff; padding:40px; border-radius:50%;width:100px;}
+
+
+/*Discuss Area*/
+.discuss_area{}
+.form_row,.form_message{flex:1;display: inline-block;border-bottom:2px solid #ddd;margin-bottom:15px;}
+.form_row{width: 49%;}
+.form_message{width: 100%;}
+.form_message input{border: none;width: 84%;}
+.form_row label{padding-right:10px;}
+.form_row input{width: 170px;border: none;}
+.form_group{}
+.sub_row{float:right;}
+.sub_row input{border:none;background:none;}
+
+.discuss_area .content li{list-style: none;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;}
+.address{flex:2;}
+.form{flex:4;}
+.picture{flex:1;}
+.discuss_area .map img{width:100%;}
+
+/*Footer Area*/
+
+.footer_area{background-color:#010305;color:#fff;}
+.footer_area h3{display:block;width:100%;}
+.footer_area .three_equal_div_footer{margin:40px 50px 0 70px;display:flex;}
+.footer_area ul{margin:0; padding:0;}
+.footer_area ul li{list-style:none;padding-bottom:10px;margin-right:80px;}
+.items{float: left;width: 120px;overflow: hidden;}
+.footer_area form{position:relative;}
+.footer_area input[type=text]{background:transparent;padding:10px;border:2px solid #ddd;position:relative;color:#fff;}
+.footer_area input[type=submit]{border: none;
+    background-image: url(../images/submit_subscribe.png);
+    margin-top: -25px;
+    margin-left: 190px;
+    position: absolute;
+    background-color: transparent;
+    width: 20px;
+    background-repeat: no-repeat;z-index:999;}
